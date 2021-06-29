@@ -1,4 +1,4 @@
-var butten = document.querySelector("#btn-translate");
+var button = document.querySelector("#btn-translate");
 var input = document.querySelector("#input-txt")
 var output = document.querySelector("#output-txt")
 var url = "https://api.funtranslations.com/translate/minion.json"
@@ -24,4 +24,4 @@ function clicked(){
 
 
  
-butten.addEventListener("click",clicked);
+button.addEventListener("click",clicked);

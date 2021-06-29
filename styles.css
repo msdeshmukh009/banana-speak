@@ -12,28 +12,21 @@ body{
     background-color: var(--primary-color);
     text-align: center;
     margin: auto;
-    padding: 2rem;
+    padding: 1rem;
     margin-bottom: 1rem;
     
-}
-/* image */
-img{
-    float: left;
-    width: 20rem;
-    height: 20rem;
-
 }
 /* input */
 #input-txt{
     display: inline;
     font-size: large;
     width: 50rem; 
-    height: 5rem;
+    height: 8rem;
     font-family: inherit;
-    margin-top: 1rem;
-    margin-left: 5rem;
+    margin-top: 0.5rem;
+    margin-left: 20rem;
 }
-/* butten */
+/* button */
 #btn-translate{
     text-decoration: none;
     display: inline;
@@ -42,10 +35,10 @@ img{
     font: inherit;
     font-size: large;
     padding: 1rem 0rem;
-    width: 20rem;
+    width: 15rem;
     border: none;
-    margin-bottom: 1rem;
-    margin-left: 5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 20rem;
 }
 /* output */
 .translation-here{
@@ -53,26 +46,26 @@ img{
     display:inline;
     font-size: large;
     text-align: center;
-    margin-left: 5rem;
-    margin-bottom: 1rem; 
+    margin-left: 20rem;
+    margin-bottom: 0.5rem; 
 }
 #output-txt{
     display: block;
     font-size: large;
     margin:auto;
-    margin-left: 25rem;
+    margin-left: 20rem;
     font-family: inherit;
     border:solid;border-width: 1px;
     width: 50rem;
     height: 5rem; 
     padding: 2px;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 /* footer */
 .footer{
-    height: 6rem;
+    height: 5rem;
     background-color: var(--primary-color);
-    margin-top: 1rem;
+    margin-top: 2.5rem;
     margin-bottom: 0rem;
     padding: 2rem ;
 }
