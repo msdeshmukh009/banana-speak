@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+body{
+    font-family: 'Kalam', cursive;
+    margin: 0rem;
+}
+/* colors */
+:root{
+    --primary-color:#FFC107;
+}
+/* heading */
+.heading{
+    background-color: var(--primary-color);
+    text-align: center;
+    margin: auto;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    
+}
+/* image */
+img{
+    float: left;
+    width: 20rem;
+    height: 20rem;
+
+}
+/* input */
+#input-txt{
+    display: inline;
+    font-size: large;
+    width: 50rem; 
+    height: 5rem;
+    font-family: inherit;
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+/* butten */
+#btn-translate{
+    text-decoration: none;
+    display: inline;
+    background-color: var(--primary-color);
+    color: black;
+    font: inherit;
+    font-size: large;
+    padding: 1rem 0rem;
+    width: 20rem;
+    border: none;
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+}
+/* output */
+.translation-here{
+
+    display:inline;
+    font-size: large;
+    text-align: center;
+    margin-left: 5rem;
+    margin-bottom: 1rem; 
+}
+#output-txt{
+    display: block;
+    font-size: large;
+    margin:auto;
+    margin-left: 25rem;
+    font-family: inherit;
+    border:solid;border-width: 1px;
+    width: 50rem;
+    height: 5rem; 
+    padding: 2px;
+    margin-top: 1rem;
+}
+/* footer */
+.footer{
+    height: 6rem;
+    background-color: var(--primary-color);
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    padding: 2rem ;
+}
+.footer-txt{
+    width: 35rem;
+    color: black;
+    text-align: center;
+    margin: auto;
+    
+}
