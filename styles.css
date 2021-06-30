@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+* {
+    box-sizing: border-box;
+}
 body{
     font-family: 'Kalam', cursive;
     margin: 0rem;
@@ -6,73 +9,66 @@ body{
 /* colors */
 :root{
     --primary-color:#FFC107;
+    --width:600px;
 }
-/* heading */
-.heading{
+/* nav-bar */
+nav{
+    font-size: 2rem;
+    padding: 1rem;
     background-color: var(--primary-color);
     text-align: center;
+}
+/* main */
+main{
     margin: auto;
     padding: 1rem;
-    margin-bottom: 1rem;
-    
+    max-width: var(--width);
 }
 /* input */
 #input-txt{
-    display: inline;
+    box-sizing: border-box;
+    display: block;
     font-size: large;
-    width: 50rem; 
-    height: 8rem;
+    width: 100%; 
+    min-height: 20vh;
     font-family: inherit;
-    margin-top: 0.5rem;
-    margin-left: 20rem;
+    margin-top: 2rem;
 }
 /* button */
 #btn-translate{
-    text-decoration: none;
-    display: inline;
     background-color: var(--primary-color);
     color: black;
     font: inherit;
     font-size: large;
+    margin: 1rem 0rem;
     padding: 1rem 0rem;
-    width: 15rem;
     border: none;
-    margin-bottom: 0.5rem;
-    margin-left: 20rem;
 }
 /* output */
-.translation-here{
-
-    display:inline;
-    font-size: large;
-    text-align: center;
-    margin-left: 20rem;
-    margin-bottom: 0.5rem; 
-}
+/* .translation-here{
+    
+} */
 #output-txt{
-    display: block;
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 100%;
+    padding: 1rem;
     font-size: large;
-    margin:auto;
-    margin-left: 20rem;
-    font-family: inherit;
-    border:solid;border-width: 1px;
-    width: 50rem;
-    height: 5rem; 
-    padding: 2px;
-    margin-top: 0.5rem;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow:scroll;
 }
 /* footer */
 .footer{
-    height: 5rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
     background-color: var(--primary-color);
-    margin-top: 2.5rem;
-    margin-bottom: 0rem;
-    padding: 2rem ;
+    text-align: center;
 }
 .footer-txt{
-    width: 35rem;
-    color: black;
-    text-align: center;
+    max-width: var(--width);
     margin: auto;
     
 }
