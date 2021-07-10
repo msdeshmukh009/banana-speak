@@ -40,14 +40,12 @@ main{
     color: black;
     font: inherit;
     font-size: large;
-    margin: 1rem 0rem;
+    cursor: pointer;
     padding: 1rem 0rem;
     border: none;
 }
+
 /* output */
-/* .translation-here{
-    
-} */
 #output-txt{
     box-sizing: border-box;
     border: 1px solid black;
@@ -59,7 +57,7 @@ main{
     overflow:scroll;
 }
 /* footer */
-.footer{
+footer{
     position: fixed;
     bottom: 0;
     width: 100%;
