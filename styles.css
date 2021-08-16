@@ -9,6 +9,7 @@ body{
 /* colors */
 :root{
     --primary-color:#FFC107;
+    --secondary-color:#F8EDE3;
     --width:600px;
 }
 /* nav-bar */
@@ -33,6 +34,7 @@ main{
     min-height: 20vh;
     font-family: inherit;
     margin-top: 2rem;
+    background-color: var(--secondary-color);
 }
 /* button */
 #btn-translate{
@@ -55,6 +57,7 @@ main{
     min-height: 10vh;
     max-height: 20vh;
     overflow:scroll;
+    background-color:var(--secondary-color);
 }
 /* footer */
 footer{
