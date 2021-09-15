@@ -3,18 +3,22 @@
     box-sizing: border-box;
 }
 body{
+    background-color: var(--secondary-color);
     /* background-image: url(img/6.svg); */
     font-family: 'Oswald', sans-serif;
     margin: 0rem;
 }
 /* colors */
 :root{
-    --primary-color:#FFC107;
-    --secondary-color:#F8EDE3;
+    /* --primary-color:#FFC107; */
+    /* --secondary-color:#F8EDE3; */
+    --primary-color:#171717;
+    --secondary-color:#FFE459;
     --width:600px;
 }
 /* nav-bar */
 nav{
+    color: var(--secondary-color);
     font-size: 2rem;
     padding: 1rem;
     background-color: var(--primary-color);
@@ -27,7 +31,14 @@ main{
     max-width: var(--width);
 }
 /* input */
+::placeholder { 
+    color:var(--secondary-color);
+    opacity: 1; 
+  }
 #input-txt{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    
     box-sizing: border-box;
     display: block;
     font-size: large;
@@ -35,21 +46,23 @@ main{
     min-height: 20vh;
     font-family: inherit;
     margin-top: 2rem;
-    background-color: var(--secondary-color);
 }
 /* button */
 #btn-translate{
-    background-color: var(--primary-color);
-    color: black;
+    border-radius: 0.3rem;
+    color: var(--secondary-color);
+    background-color:black;
+   border: 2px solid var(--primary-color);
     font: inherit;
     font-size: large;
     cursor: pointer;
-    padding: 1rem 0rem;
-    border: none;
+    padding: 0.5rem ;
 }
 
 /* output */
 #output-txt{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     box-sizing: border-box;
     border: 1px solid black;
     width: 100%;
@@ -58,7 +71,6 @@ main{
     min-height: 10vh;
     max-height: 20vh;
     overflow:scroll;
-    background-color:var(--secondary-color);
 }
 /* footer */
 footer{
@@ -67,6 +79,7 @@ footer{
     padding: 1rem;
     background-color: var(--primary-color);
     text-align: center;
+    color: var(--secondary-color)
 }
 .footer-txt{
     max-width: var(--width);
